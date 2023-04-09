@@ -4,7 +4,6 @@ import locationIcon from '../assets/Icons/Frame-4.png';
 import frame from '../assets/Icons/Frame.png';
 const SingleJob = ({job}) => {
     const {id, companyLogo, companyName, jobTitle, fulltimeOrPartTime, remoteOrOnsite, location, salary} = job;
-    console.log(job)
     return (
         <div className='border rounded-md p-6 relative'>
             <img src={companyLogo} className="transform scale-75 relative -left-5" />

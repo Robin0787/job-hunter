@@ -1,15 +1,18 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
-import { getAllJob } from '../Utility/utilities';
 
 const JobDetails = () => {
+    const [job,setJob] = useState(null);
     const id = useLoaderData();
-    let job = null;
     useEffect(() => {
-        const allJob =  getAllJob();
-        job = allJob.find(job => job.id === id);
-        console.log(job)
-    },[])
+        fetch('/public/Data.json')
+        .then(res => res.json())
+        .then(data => {
+            const job = data.find(item => item.id == id)
+            setJob(job);
+        })
+    },[]);
+    console.log(job);
     return (
         <div>
             <h1>Job Details</h1>
