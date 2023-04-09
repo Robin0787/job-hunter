@@ -1,0 +1,105 @@
+[
+  {
+    "id": 1,
+    "companyLogo": "google.png",
+    "jobTitle": "Software Engineer",
+    "companyName": "Google",
+    "remoteOrOnsite": "Remote",
+    "location": "Mountain View, CA",
+    "fulltimeOrPartTime": "Full-time",
+    "salary": "$120,000 - $200,000",
+    "jobDescription": "We are looking for a talented software engineer to join our team...",
+    "jobResponsibility": "Design and develop scalable and reliable software systems...",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field",
+    "experiences": "5+ years of experience in software development",
+    "contactInformation": {
+      "phone": "+1-650-253-0000",
+      "email": "jobs@google.com"
+    }
+  },
+  {
+    "id": 2,
+    "companyLogo": "airbnb.png",
+    "jobTitle": "Cloud Architect",
+    "companyName": "Airbnb",
+    "remoteOrOnsite": "Remote",
+    "location": "Seattle, WA",
+    "fulltimeOrPartTime": "Full-time",
+    "salary": "$150,000 - $250,000",
+    "jobDescription": "We are seeking a highly motivated Cloud Architect to join our team...",
+    "jobResponsibility": "Design and implement highly scalable cloud solutions for customers...",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field",
+    "experiences": "7+ years of experience in cloud computing and infrastructure design",
+    "contactInformation": {
+      "phone": "+1-206-266-1000",
+      "email": "jobs@amazon.com"
+    }
+  },
+  {
+    "id": 3,
+    "companyLogo": "netflix.png",
+    "jobTitle": "Product Manager",
+    "companyName": "Netflix",
+    "remoteOrOnsite": "Onsite",
+    "location": "Redmond, WA",
+    "fulltimeOrPartTime": "Full-time",
+    "salary": "$140,000 - $200,000",
+    "jobDescription": "We are looking for a Product Manager to join our team...",
+    "jobResponsibility": "Drive the development and launch of new products and features...",
+    "educationalRequirements": "Bachelor's or Master's degree in Business Administration or related field",
+    "experiences": "5+ years of experience in product management",
+    "contactInformation": {
+      "phone": "+1-425-882-8080",
+      "email": "jobs@microsoft.com"
+    }
+  },
+  {
+    "id": 4,
+    "companyLogo": "tesla.png",
+    "jobTitle": "Senior iOS Developer",
+    "companyName": "Tesla",
+    "remoteOrOnsite": "Onsite",
+    "location": "Cupertino, CA",
+    "fulltimeOrPartTime": "Full-time",
+    "salary": "$160,000 - $250,000",
+    "jobDescription": "We are seeking an experienced iOS developer to join our team...",
+    "jobResponsibility": "Design and develop innovative iOS applications that delight our customers...",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field"
+  },
+  {
+    "id": 5,
+    "companyLogo": "microsoft.png",
+    "jobTitle": "Data Scientist",
+    "companyName": "Microsoft",
+    "remoteOrOnsite": "Remote",
+    "location": "Menlo Park, CA",
+    "fulltimeOrPartTime": "Full-time",
+    "salary": "$130,000 - $220,000",
+    "jobDescription": "We are looking for a talented data scientist to join our team...",
+    "jobResponsibility": "Analyze and interpret complex data to drive business decisions...",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science, Mathematics, Statistics, or related field",
+    "experiences": "5+ years of experience in data science or related field",
+    "contactInformation": {
+      "phone": "+1-650-543-4800",
+      "email": "jobs@facebook.com"
+    }
+  },
+  {
+    "id": 6,
+    "companyLogo": "linkedIn.png",
+    "jobTitle": "UI/UX Designer",
+    "companyName": "LinkedIn",
+    "remoteOrOnsite": "Onsite",
+    "location": "Sunnyvale, CA",
+    "fulltimeOrPartTime": "Full-time",
+    "salary": "$100,000 - $180,000",
+    "jobDescription": "We are seeking a talented UI/UX designer to join our team...",
+    "jobResponsibility": "Design and create beautiful and intuitive user interfaces for our products...",
+    "educationalRequirements": "Bachelor's or Master's degree in Design, Human-Computer Interaction, or related field",
+    "experiences": "3+ years of experience in UI/UX design",
+    "contactInformation": {
+      "phone": "+1-650-687-3600",
+      "email": "jobs@linkedin.com"
+    }
+  }
+]

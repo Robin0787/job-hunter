@@ -1,0 +1,16 @@
+.active {
+  position: relative;
+  transition: 0.4s ease;
+  color: rgba(19, 19, 247, 0.788);
+}
+
+.active::after {
+  position: absolute;
+  content: "";
+  border-radius: 10px;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(65, 128, 245, 0.4);
+  bottom: 0;
+  left: 0;
+}
