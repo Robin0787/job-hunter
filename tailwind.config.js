@@ -8,7 +8,7 @@ export default {
     extend: {
       gridTemplateColumns: {
         'fourTwo': '4fr 2fr',
-      }
+      },
     }
   },
   plugins: [],

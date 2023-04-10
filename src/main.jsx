@@ -2,8 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import App from './App'
+import AppliedJobs from './Components/AppliedJobs'
 import Home from './Components/Home/Home'
 import JobDetails from './Components/JobDetails'
+import { getJobFromDB } from './Utility/utilities'
 import './index.css'
 
 const router = createBrowserRouter([
@@ -21,7 +23,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/applied-jobs',
-        element: <p>Applied Jobs</p>
+        element: <AppliedJobs />,
+        loader: getJobFromDB
       },
       {
         path: '/blog',
