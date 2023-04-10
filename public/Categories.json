@@ -1,0 +1,22 @@
+[
+  {
+    "categoryLogo": "accounts-1.png",
+    "categoryTitle": "Account & Finance",
+    "categoryDesc": "250 Jobs available"
+  },
+  {
+    "categoryLogo": "business-1.png",
+    "categoryTitle": "Creative Design",
+    "categoryDesc": "190 Jobs available"
+  },
+  {
+    "categoryLogo": "social-media-1.png",
+    "categoryTitle": "Marketing & Sales",
+    "categoryDesc": "225+ Jobs available"
+  },
+  {
+    "categoryLogo": "chip-1.png",
+    "categoryTitle": "Engineering Job",
+    "categoryDesc": "200 Jobs available"
+  }
+]

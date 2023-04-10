@@ -1,7 +1,8 @@
+
 import React from 'react';
-import FeaturedJobs from './FeaturedJobs';
-import Categories from './Header/Categories';
-import Header from './Header/Header';
+import Categories from "./Categories";
+import FeaturedJobs from "./FeaturedJobs";
+import Header from "./Header";
 
 const Home = () => {
     return (

@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import App from './App'
-import Home from './Components/Home'
+import Home from './Components/Home/Home'
 import JobDetails from './Components/JobDetails'
 import './index.css'
 

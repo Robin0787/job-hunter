@@ -5,7 +5,7 @@ import "./NavbarCSS.css";
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <nav className='relative flex justify-between items-center py-6'>
+        <nav className='relative flex justify-between items-center py-6 '>
             <Link to={'/'} className='flex justify-center items-center gap-2 animate-text bg-gradient-to-r from-cyan-600 via-purple-600 to-cyan-500 bg-clip-text text-transparent font-black'>
                 <AcademicCapIcon className='h-8 w-8 text-blue-500' />
                 <h2 className="text-2xl font-semibold">Your Jobs</h2>
