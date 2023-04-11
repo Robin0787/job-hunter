@@ -26,7 +26,7 @@ const AppliedJobs = () => {
             <div className='text-right'>
                 <select name="" id="" className='border-0 font-inherit cursor-pointer bg-indigo-50 py-2  px-4 rounded-md focus:outline-0' onChange={(e) => {filterBy(e.target.value)}}>
                     <option className='hidden' value="" defaultValue={'Filter By'}>Filter By</option>
-                    <option className='text-gray-800' value="All">Show All</option>
+                    <option className='text-gray-800' value="All">All</option>
                     <option className='text-gray-800' value="Remote">Remote</option>
                     <option className='text-gray-800' value="Onsite">On Site</option>
                 </select>

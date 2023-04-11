@@ -27,7 +27,7 @@ const FeaturedJobs = () => {
                     jobs.map(job => <SingleJob key={job.id} job={job} />) 
                 }
             </article>
-            <article className='my-6 text-center'>
+            <article className='mt-10 mb-5 text-center'>
                 <button className='inline-block text-md md:text-md font-semibold text-white py-2 px-8 rounded-md bg-gradient-to-r from-purple-600 to-indigo-500 text-center'
                 onClick={() => {setShowAll(!showAll)}}
                 >{showAll ? 'Show All' : 'Show Less'}</button>

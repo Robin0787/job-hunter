@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import App from './App'
 import AppliedJobs from './Components/AppliedJobs'
+import Blog from './Components/Blog'
+import ErrorPage from './Components/ErrorPage'
 import Home from './Components/Home/Home'
 import JobDetails from './Components/JobDetails'
 import Statistics from './Components/Statistics'
@@ -29,19 +31,19 @@ const router = createBrowserRouter([
       },
       {
         path: '/blog',
-        element: <p>Blog</p>
+        element: <Blog />
       },
       {
         path: '/job/:jobID',
         element: <JobDetails />,
         loader: ({params}) => params.jobID
+      },
+      {
+        path: '*',
+        element: <ErrorPage />
       }
     ]
   },
-  {
-    path: '*',
-    element: <p className='text-center bg-red-400'>404 || Page Not Found</p>
-  }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
