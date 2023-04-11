@@ -23,7 +23,7 @@ const SingleJob = ({job}) => {
                     <p>Salary : {salary}</p>
                 </div>
             </div>
-            <Link to={`/job/${id}`} className='inline-block text-sm md:text-md font-semibold text-white py-1 px-2 rounded-sm bg-gradient-to-r from-purple-600 to-indigo-500 '>View Details</Link>
+            <Link to={`/job/${id}`} className='inline-block text-sm md:text-md font-semibold text-white p-2 rounded-sm bg-gradient-to-r from-purple-600 to-indigo-500 '>View Details</Link>
         </div>
     );
 };

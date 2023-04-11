@@ -1,7 +1,8 @@
 .active {
   position: relative;
   transition: 0.4s ease;
-  color: rgba(19, 19, 247, 0.788);
+  /* color: rgba(19, 19, 247, 0.788); */
+  color: indigo;
 }
 
 .active::after {
@@ -10,7 +11,7 @@
   border-radius: 10px;
   width: 100%;
   height: 2px;
-  background-color: rgba(45, 45, 245, 0.637);
+  background-color: rgba(76, 0, 130, 0.842);
   bottom: 0;
   left: 0;
 }

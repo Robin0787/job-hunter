@@ -5,6 +5,7 @@ import App from './App'
 import AppliedJobs from './Components/AppliedJobs'
 import Home from './Components/Home/Home'
 import JobDetails from './Components/JobDetails'
+import Statistics from './Components/Statistics'
 import { getJobFromDB } from './Utility/utilities'
 import './index.css'
 
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/statistics',
-        element: <p>Statistics</p>
+        element: <Statistics />
       },
       {
         path: '/applied-jobs',
