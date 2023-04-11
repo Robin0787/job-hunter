@@ -4,7 +4,7 @@ import Navbar from './Navbar/Navbar';
 const Blog = () => {
     return (
         <section>
-            <article className='bg-no-repeat bg-indigo-50 bg-clip-content' style={{ backgroundImage: `url('/public/vector.png'), url('/public/vector-1.png')`, backgroundPosition: `bottom left, top right` }}>
+            <article className='bg-no-repeat bg-indigo-50 bg-clip-content' style={{ backgroundImage: `url('/vector.png'), url('/vector-1.png')`, backgroundPosition: `bottom left, top right` }}>
             <Navbar />
             <h2 className="text-2xl font-semibold text-center pt-2 pb-10">Blogs</h2>
             </article>
