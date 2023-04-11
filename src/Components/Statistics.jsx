@@ -49,7 +49,7 @@ const assignmentMarks = [
 const Statistics = () => {
     return (
         <section className="">
-            <article className='bg-[url("/public/vector.png")] bg-repeat-space bg-bottom bg-indigo-50 bg-clip-content'>
+            <article className='bg-no-repeat bg-indigo-50 bg-clip-content' style={{ backgroundImage: `url('/public/vector.png'), url('/public/vector-1.png')`, backgroundPosition: `bottom left, top right` }}>
             <Navbar />
             <h2 className="text-lg md:text-2xl font-semibold text-center pt-2 pb-10">All the assignment marks that I have got so far</h2>
             </article>
